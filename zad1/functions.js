@@ -3,5 +3,7 @@ function isOdd(x){
 }
 
 
-const isEven = x => (x%2 == 0);
+const isEven = x => !isOdd(x);
 
+console.log(isOdd(1));
+console.log(isEven(1));
