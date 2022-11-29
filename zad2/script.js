@@ -3,7 +3,8 @@ const plusOneButtonElement = document.querySelector('#plus-one');
 const changeColorButtonElement = document.querySelector('#change-color');
 const resetValueButtonElement = document.querySelector('#reset-value');
 
-var actualColor = 'black';
+let actualColor = 'black';
+
 function changeCounterValue(){
     let value = +counterElement.innerText;
     counterElement.innerText = value + 1;
